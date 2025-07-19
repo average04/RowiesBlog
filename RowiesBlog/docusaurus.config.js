@@ -87,13 +87,14 @@ const config = {
           src: 'img/profile.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Poem',
-          },
-          {to: '/blog', label: 'Prose', position: 'left'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Poem',
+          // },
+          {to: '/poem', label: 'Poem', position: 'left'},
+          {to: '/prose', label: 'Prose', position: 'left'},
         ],
       },
       prism: {
