@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Rowie\'s Blog',
+  title: 'Rowie\'s Thoughs',
   tagline: 'A quiet space for thoughts, verse, and everything in between.',
   favicon: 'img/favicon.ico',
 
@@ -81,7 +81,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Rowie\'s Blog',
+        title: 'Rowie\'s Thoughs',
         logo: {
           alt: 'My Site Logo',
           src: 'img/profile.png',
