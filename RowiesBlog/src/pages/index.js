@@ -6,12 +6,14 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import profile from '../../static/img/profile.png';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+        <img src={profile} alt="Description" width={200} height={200}/>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
