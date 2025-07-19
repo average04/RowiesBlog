@@ -93,8 +93,8 @@ const config = {
           //   position: 'left',
           //   label: 'Poem',
           // },
-          {to: '/poem', label: 'Poem', position: 'left'},
-          {to: '/prose', label: 'Prose', position: 'left'},
+          {to: '/', label: 'Poem', position: 'left'},
+          {to: '/', label: 'Prose', position: 'left'},
         ],
       },
       prism: {
